@@ -29,7 +29,7 @@ const skills = [
           </div>
         </div>
       </div>
-      <p class="tracking-wide leading-[1.6] mt-2 md:pr-2 text-[12px] group-hover:text-white">
+      <p class="tracking-wide leading-[1.6] mt-2 md:pr-2 text-[12px]">
         I completed a six-month on-site internship at PetroChina International Jabung Ltd., based in
         Tanjung Jabung Timur, Jambi Province. The company is about an hour's drive from Jambi City
         and a one-hour flight from Jakarta, which is where I live. I worked at the IT Shop sector,

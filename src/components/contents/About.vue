@@ -1,15 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const aboutSection = ref(null)
-
-onMounted(() => {
-  setTimeout(() => {
-    aboutSection.value.classList.remove('opacity-0', 'translate-x-full')
-    aboutSection.value.classList.add('opacity-100', 'translate-x-0')
-  }, 200)
-})
-
 const buttonText = ref('Contact Me')
 
 const handleMouseEnter = () => {
@@ -24,20 +15,17 @@ const handleMouseLeave = () => {
 <template>
   <div class="md:hidden flex flex-col pt-16 pb-8">
     <h2 class="text-xl md:text-2xl font-semibold text-white">Muhammad Sultan Raisyah</h2>
-    <h2 class="text-xl md:text-4xl font-semibold text-white">front-end/UI engineer</h2>
+    <h2 class="text-xl md:text-4xl font-semibold text-white">front-end developer</h2>
     <h2 class="text-lg md:text-xl font-inter font-semibold text-green-200">
       Computer Science Fresh Graduate
     </h2>
   </div>
-  <div
-    ref="aboutSection"
-    class="flex flex-col gap-4 opacity-0 translate-x-full transition-all duration-700 ease-in-out"
-  >
+  <div class="flex flex-col gap-4">
     <p class="tracking-wide leading-[1.6]">
-      I’m a fresh graduate in Computer Science and a passionate front-end/UI engineer with
-      internship experience at PetroChina International Jabung Ltd as an IT Support and Developer.
-      During my time there, I was responsible for both troubleshooting IT-related issues and
-      developing internal web applications.
+      I’m a fresh graduate in Computer Science and a passionate front-end developer with internship
+      experience at PetroChina International Jabung Ltd as an IT Support and Developer. During my
+      time there, I was responsible for both troubleshooting IT-related issues and developing
+      internal web applications.
     </p>
     <p class="tracking-wide leading-[1.6]">
       My experience at PetroChina not only strengthened my problem-solving skills but also deepened

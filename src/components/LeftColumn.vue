@@ -28,11 +28,11 @@ onMounted(() => {
     class="flex flex-1 flex-col gap-24 pl-10 pr-10 lg:pl-20 2xl:pr-56 md:py-24 2xl:py-28 md:mx-20 2xl:mx-0 fixed-col"
   >
     <div
-      class="justify-center 2xl:mt-4 p-6 lg:h-[200px] flex flex-col gap-2 outline outline-2 outline-neutral-600 rounded-xl scale-90 2xl:scale-100"
+      class="justify-center 2xl:mt-4 p-6 lg:h-[200px] flex flex-col gap-2 outline outline-2 outline-neutral-600 rounded-xl scale-90 2xl:scale-100 glow-card"
     >
       <h2 class="text-xl lg:text-4xl font-inter font-bold text-white">Muhammad Sultan</h2>
       <h2 class="text-3xl lg:text-xl font-semibold text-green-200">front-end developer</h2>
-      <p class="text-md pr-18 leading-[1.6] text-slate-400">
+      <p class="text-md pr-18 leading-[1.6] text-slate-300">
         {{ displayedText }}
       </p>
     </div>
@@ -122,4 +122,22 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.glow-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg, #323232, #0d5c3c);
+  filter: blur(30px);
+  z-index: 0;
+  border-radius: 0.75rem;
+}
+
+.glow-card > * {
+  position: relative;
+  z-index: 1;
+}
+</style>
