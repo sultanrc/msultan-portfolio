@@ -11,11 +11,11 @@ const toggleMore = () => {
 </script>
 
 <template>
-  <div class="md:hidden flex flex-col">
+  <div class="md:hidden flex flex-col mt-10">
     <h2 class="text-xl md:text-2xl font-semibold text-white">Muhammad Sultan Raisyah</h2>
     <h2 class="text-xl md:text-4xl font-semibold text-green-200">front-end developer</h2>
   </div>
-  <div class="flex flex-col">
+  <div class="flex flex-col mt-4 md:mt-0">
     <div
       class="flex flex-col gap-4 p-2 md:text-start text-justify text-neutral-300 border border-green-200 md:rounded rounded-t-xl rounded-bl-xl glow-card"
     >
