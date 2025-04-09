@@ -32,17 +32,22 @@ const toggleMore = () => {
       >
         <p class="tracking-wide leading-[1.6]">
           My experience at PetroChina not only strengthened my problem-solving skills but also
-          deepened my passion for building interactive user interfaces. I enjoy crafting seamless
-          digital experiences—though, let's be real, <span class="text-green-200">Vue.js</span> is
-          my current go-to.
+          deepened my passion for building interactive user interfaces, where I found fulfillment in
+          transforming complex ideas into seamless digital experiences through clean and efficient
+          code. These are the techs that i like to use:
         </p>
-        <p class="tracking-wide leading-[1.6]">
-          One of my notable projects, showcased in the
-          <a href="#projects" class="text-green-200">Projects</a> section, reflects my ability to
-          create efficient and user-friendly applications. I'm now looking for opportunities in
-          Front-End Development where I can apply my skills while contributing to impactful
-          projects.
-        </p>
+        <div class="tracking-wide leading-[1.6] text-slate-300">
+          <ul class="flex flex-wrap text-white list-disc list-inside">
+            <li class="w-1/2">HTML</li>
+            <li class="w-1/2">CSS</li>
+            <li class="w-1/2">JavaScript</li>
+            <li class="w-1/2">Tailwind CSS</li>
+            <li class="w-1/2">Bootstrap</li>
+            <li class="w-1/2">Vue.js</li>
+            <li class="w-1/2">API Integration</li>
+            <li class="w-1/2">Git</li>
+          </ul>
+        </div>
         <p class="tracking-wide leading-[1.6]">
           <span class="text-green-200">Think of it as a win-win: </span>you get a dedicated engineer
           eager to tackle challenges, and I get to grow while helping your company thrive. Let's

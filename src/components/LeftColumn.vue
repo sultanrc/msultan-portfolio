@@ -45,7 +45,7 @@ onMounted(() => {
         :key="section"
         @click="emit('tab-click', section)"
         :class="{
-          'hover:text-white hover:text-3xl transition-all [text-shadow:-4px_8px_10px_rgba(0,0,0,0.6)]': true,
+          'hover:text-white hover:text-3xl transition-all [text-shadow:-4px_8px_14px_rgba(0,0,0,0.6)]': true,
           'text-white text-3xl transition-all': props.activeTab === section,
           'text-gray-500': props.activeTab !== section,
         }"
