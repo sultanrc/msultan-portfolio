@@ -16,9 +16,10 @@ const skills = [
 <template>
   <h1 class="mb-2 text-white text-2xl">experience</h1>
   <a href="https://www.petrochina.co.id" target="_blank">
-    <div class="p-4 rounded-lg group">
+    <div
+      class="p-4 rounded-lg group outline outline-green-200 outline-1 md:outline-2 md:outline-neutral-600 shadow-2xl"
+    >
       <div class="flex flex-col">
-        <h2 class="text-[12px] font-inter font-bold">FEBRUARY - JUNE 2023</h2>
         <div class="flex p-2">
           <div class="flex items-end">
             <img :src="petrochina" alt="PetroChina Logo" class="w-14 h-auto" />
@@ -42,7 +43,7 @@ const skills = [
         <a
           v-for="(skill, index) in skills"
           :key="index"
-          class="inline-block px-4 my-[1px] bg-slate-500 text-white rounded-2xl hover:bg-transparent hover:outline hover:outline-2 hover:outline-gray-700 transition-all"
+          class="inline-block px-4 my-[1px] bg-[linear-gradient(to_right,_#265844,_#1c3947)] text-white rounded-2xl hover:bg-white hover:outline hover:outline-2 hover:outline-gray-700 transition-all"
         >
           <span class="text-[12px]">{{ skill }}</span>
         </a>

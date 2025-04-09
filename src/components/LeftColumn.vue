@@ -71,7 +71,7 @@ onMounted(() => {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-instagram text-slate-400 hover:scale-150 transition hover:animate-pulse hover:text-white hover:rotate-[10deg]"
+          class="lucide lucide-instagram text-[#4EBF96] hover:scale-150 transition hover:animate-pulse hover:rotate-[10deg]"
         >
           <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
           <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -86,7 +86,7 @@ onMounted(() => {
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
-          class="hover:scale-150 transition hover:text-white hover:animate-pulse text-slate-400"
+          class="hover:scale-150 transition text-[#4EBF96] hover:text-[#4EBF96] hover:animate-pulse"
         >
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g
@@ -111,7 +111,7 @@ onMounted(() => {
           height="34"
           viewBox="0 0 32 32"
           xmlns="http://www.w3.org/2000/svg"
-          class="hover:scale-150 transition hover:text-white hover:-rotate-[5deg] hover:animate-pulse text-slate-400"
+          class="hover:scale-150 transition hover:text-[#4EBF96] hover:-rotate-[5deg] hover:animate-pulse text-[#4EBF96]"
         >
           <path
             d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"
@@ -130,8 +130,8 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(315deg, #323232, #0d5c3c);
-  filter: blur(30px);
+  background: linear-gradient(315deg, #1c3947, #265844);
+  filter: blur(12px);
   z-index: 0;
   border-radius: 0.75rem;
 }
