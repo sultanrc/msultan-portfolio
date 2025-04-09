@@ -25,7 +25,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="flex flex-1 flex-col gap-24 pl-10 pr-10 lg:pl-20 2xl:pr-56 md:py-24 2xl:py-28 md:mx-20 2xl:mx-0 fixed-col"
+    class="flex flex-1 flex-col gap-24 pl-10 pr-10 lg:pl-20 2xl:pr-56 md:py-20 2xl:py-28 md:mx-20 2xl:mx-0 fixed-col"
   >
     <div
       class="justify-center 2xl:mt-4 p-6 lg:h-[200px] flex flex-col gap-2 outline outline-2 outline-neutral-600 rounded-xl scale-90 2xl:scale-100 glow-card"
@@ -45,7 +45,7 @@ onMounted(() => {
         :key="section"
         @click="emit('tab-click', section)"
         :class="{
-          'hover:text-white hover:text-3xl transition-all': true, // Class statis
+          'hover:text-white hover:text-3xl transition-all [text-shadow:-4px_8px_10px_rgba(0,0,0,0.6)]': true,
           'text-white text-3xl transition-all': props.activeTab === section,
           'text-gray-500': props.activeTab !== section,
         }"

@@ -11,7 +11,7 @@ const toggleMore = () => {
 </script>
 
 <template>
-  <div class="md:hidden flex flex-col pt-8 pb-4">
+  <div class="md:hidden flex flex-col">
     <h2 class="text-xl md:text-2xl font-semibold text-white">Muhammad Sultan Raisyah</h2>
     <h2 class="text-xl md:text-4xl font-semibold text-green-200">front-end developer</h2>
   </div>
@@ -25,7 +25,11 @@ const toggleMore = () => {
         During my time there, I was responsible for both troubleshooting IT-related issues and
         developing internal web applications.
       </p>
-      <div id="more" :class="{ hidden: !isMoreVisible, 'md:flex': true, 'flex-col': true }">
+      <div
+        id="more"
+        :class="{ hidden: !isMoreVisible, 'md:flex': true, 'flex-col': true }"
+        class="gap-4"
+      >
         <p class="tracking-wide leading-[1.6]">
           My experience at PetroChina not only strengthened my problem-solving skills but also
           deepened my passion for building interactive user interfaces. I enjoy crafting seamless
@@ -37,8 +41,7 @@ const toggleMore = () => {
           <a href="#projects" class="text-green-200">Projects</a> section, reflects my ability to
           create efficient and user-friendly applications. I'm now looking for opportunities in
           Front-End Development where I can apply my skills while contributing to impactful
-          projects. I'm also open to internship opportunities to further refine my expertise in
-          real-world scenarios.
+          projects.
         </p>
         <p class="tracking-wide leading-[1.6]">
           <span class="text-green-200">Think of it as a win-win: </span>you get a dedicated engineer

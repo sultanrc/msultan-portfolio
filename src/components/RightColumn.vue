@@ -31,7 +31,7 @@ const handleScroll = () => {
   >
     <div
       id="about"
-      class="flex flex-col items-center gap-2 px-6 md:mr-12 md:p-8 md:mt-20 md:scale-95 2xl:scale-100 2xl:mt-28 xl:text-sm text-xs md:outline md:outline-2 md:outline-neutral-600 rounded-xl shadow-xl"
+      class="flex flex-col items-center gap-2 px-6 md:mr-12 md:p-8 md:mt-16 md:scale-95 2xl:scale-100 2xl:mt-28 xl:text-sm text-xs md:outline md:outline-2 md:outline-neutral-600 rounded-xl shadow-xl"
     >
       <About />
     </div>
