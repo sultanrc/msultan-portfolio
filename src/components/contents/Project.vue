@@ -5,12 +5,12 @@ import ews from '@/assets/images/ews.jpeg'
 
 const experienceContainer = computed(
   () =>
-    'flex flex-col p-4 rounded-lg transition hover:bg-gray-700 hover:bg-opacity-10  hover:shadow-xl group',
+    'flex flex-col p-4 rounded-lg transition hover:bg-gray-500 hover:bg-opacity-10  hover:shadow-xl group',
 )
 </script>
 
 <template>
-  <h1 class="mb-4 text-white text-2xl leading-[1.6]">projects</h1>
+  <h1 class="mb-2 text-white text-2xl leading-[1.6]">projects</h1>
   <div
     class="flex flex-col outline outline-green-200 outline-1 md:outline-2 md:outline-neutral-600 rounded-xl shadow-xl"
   >

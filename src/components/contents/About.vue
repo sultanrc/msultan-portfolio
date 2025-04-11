@@ -84,7 +84,7 @@ const toggleMore = () => {
     </a>
   </div>
   <div
-    class="flex md:hidden w-full justify-between mt-4 text-xs lg:text-[14px] relative border border-green-200 text-green-200 rounded-2xl"
+    class="flex md:hidden w-full justify-between mt-4 text-xs lg:text-[14px] relative border border-green-200 text-green-200 rounded-lg"
   >
     <a
       href="/cv.pdf"
