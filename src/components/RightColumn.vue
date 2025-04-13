@@ -31,16 +31,16 @@ const handleScroll = () => {
   >
     <div
       id="about"
-      class="flex flex-col items-center gap-2 px-6 md:mr-12 md:p-8 md:mt-16 md:scale-95 2xl:scale-100 2xl:mt-28 xl:text-sm text-xs md:outline md:outline-2 md:outline-neutral-600 rounded-xl shadow-xl"
+      class="flex flex-col items-center gap-2 px-6 lg:mr-12 md:p-8 md:mt-16 md:scale-95 2xl:scale-100 2xl:mt-28 xl:text-sm text-xs md:outline md:outline-2 md:outline-neutral-600 rounded-xl shadow-xl"
     >
       <About />
     </div>
 
-    <div id="experience" class="flex flex-col px-6 md:px-2 md:pt-20 md:mr-12 text-neutral-300">
+    <div id="experience" class="flex flex-col px-6 md:px-2 md:pt-20 lg:mr-12 text-neutral-300">
       <Experience />
     </div>
 
-    <div id="projects" class="flex flex-col md:pt-16 px-6 md:px-2 md:mr-12 text-neutral-300">
+    <div id="projects" class="flex flex-col md:pt-16 px-6 md:px-2 lg:mr-12 text-neutral-300">
       <Project />
     </div>
 

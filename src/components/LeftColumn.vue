@@ -30,9 +30,9 @@ onMounted(() => {
     <div
       class="justify-center 2xl:mt-4 p-6 lg:h-[200px] flex flex-col gap-2 outline outline-2 outline-neutral-600 rounded-xl scale-90 2xl:scale-100 glow-card"
     >
-      <h2 class="text-xl lg:text-4xl font-inter font-bold text-white">Muhammad Sultan</h2>
-      <h2 class="text-3xl lg:text-xl font-semibold text-green-200">front-end developer</h2>
-      <p class="text-md pr-18 leading-[1.6] text-slate-300">
+      <h2 class="text-2xl 2xl:text-4xl font-inter font-bold text-white">Muhammad Sultan</h2>
+      <h2 class="text-2xl 2xl:text-xl font-semibold text-green-200">front-end developer</h2>
+      <p class="text-xs 2xl:text-md pr-18 leading-[1.6] text-slate-300">
         {{ displayedText }}
       </p>
     </div>

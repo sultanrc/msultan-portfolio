@@ -15,7 +15,7 @@ const experienceContainer = computed(
     class="flex flex-col outline outline-green-200 outline-1 md:outline-2 md:outline-neutral-600 rounded-xl shadow-xl"
   >
     <div :class="experienceContainer">
-      <div class="flex flex-col lg:flex-row gap-4">
+      <div class="flex flex-col md:flex-row gap-4">
         <div>
           <img
             :src="ews"
@@ -53,7 +53,7 @@ const experienceContainer = computed(
       </div>
     </div>
     <div :class="experienceContainer">
-      <div class="flex flex-col lg:flex-row gap-4">
+      <div class="flex flex-col md:flex-row gap-4">
         <div>
           <img
             :src="porto"

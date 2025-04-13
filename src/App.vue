@@ -18,11 +18,11 @@ const updateActiveTab = (section) => {
 </script>
 <template>
   <main class="mx-auto max-w-full font-comfortaa overflow-hidden">
-    <section class="flex flex-col md:flex-row h-full md:mx-16 2xl:mx-60">
-      <div class="left-column md:w-6/12 md:flex 2xl:ml-14 hidden h-full">
+    <section class="flex flex-col lg:flex-row h-full lg:mx-16 2xl:mx-60">
+      <div class="left-column lg:w-6/12 lg:flex 2xl:ml-14 h-full hidden">
         <LeftColumn :activeTab="activeTab" @tab-click="scrollToSection" />
       </div>
-      <div class="right-column md:w-6/12 h-full">
+      <div class="right-column lg:w-6/12 h-full">
         <RightColumn @scroll-update="updateActiveTab" />
       </div>
     </section>
@@ -38,18 +38,6 @@ const updateActiveTab = (section) => {
 
   .right-column {
     transform: perspective(1000px) rotateY(-10deg);
-    transform-origin: center left;
-  }
-}
-
-@media (min-width: 768px) {
-  .left-column {
-    transform: perspective(800px) rotateY(8deg);
-    transform-origin: center right;
-  }
-
-  .right-column {
-    transform: perspective(1000px) rotateY(-8deg);
     transform-origin: center left;
   }
 }

@@ -11,7 +11,7 @@ const toggleMore = () => {
 </script>
 
 <template>
-  <div class="md:hidden flex flex-col mt-10">
+  <div class="lg:hidden z-10 flex flex-col mt-10 md:mt-2">
     <h2 class="text-xl md:text-2xl font-semibold text-white">Muhammad Sultan Raisyah</h2>
     <h2 class="text-xl md:text-4xl font-semibold text-green-200">front-end developer</h2>
   </div>
